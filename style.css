@@ -202,6 +202,11 @@ body{
         width: 33.563rem;
     }
 
+    .flex-review{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     .first-review,
     .second-review,
     .third-review{
