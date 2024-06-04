@@ -12,6 +12,8 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,80 +49,90 @@
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-    <main class="main">
-      <h1>10,000+ of our users love our products.</h1>
-      <p class="company-description">
-        We only provide great products combined with excellent customer service.
-        See what our satisfied customers are saying about our services.
-      </p>
-      <div class="five-stars-reviews">
-        <div class="first-review">
-          <div class="stars">
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-          </div>
-          <p>Rated 5 stars in Reviews</p>
+    <main class="main flow">
+      <div class="desktop-flex">
+        <div class="headings-wrapper flow">
+          <h1 class="product">10,000+ of our users love our products.</h1>
+          <p class="company-description">
+            We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.
+          </p>
         </div>
-        <div class="second-review">
-          <div class="stars">
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
+        <div class="five-stars-reviews">
+          <div class="first-review flex-review bg-color-reviews">
+            <div class="stars">
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+            </div>
+            <p>Rated 5 stars in Reviews</p>
           </div>
-          <p>Rated 5 Stars in Report Guru</p>
-        </div>
-        <div class="Thirds-review">
-          <div class="stars">
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
-            <img alt="" src="images/icon-star.svg" />
+          <div class="second-review flex-review bg-color-reviews">
+            <div class="stars">
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+            </div>
+            <p>Rated 5 Stars in Report Guru</p>
           </div>
-          <p>Rated 5 Stars in BestTech</p>
+          <div class="third-review flex-review bg-color-reviews">
+            <div class="stars">
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+              <img alt="" src="images/icon-star.svg" />
+            </div>
+            <p>Rated 5 Stars in BestTech</p>
+          </div>
         </div>
       </div>
 
       <div class="testimonials">
-        <div class="first-testimonial">
-          <img src="images/image-colton.jpg" />
+        <div class="first-testimonial bg-primary-testimonial flow-testimonial testimonial-decor">
           <div class="flex-group">
-            <p>Colton Smith</p>
-            <p>Verified Buyer</p>
+            <img src="images/image-colton.jpg" />
+            <div class="flex-group-secondary">
+              <p>Colton Smith</p>
+              <p>Verified Buyer</p>
+            </div>
           </div>
           <p class="testimonial-description">
-            "We needed the same printed design as the one we had ordered a week
+            " We needed the same printed design as the one we had ordered a week
             prior. Not only did they find the original order, but we also
-            received it in time. Excellent!"
+            received it in time. Excellent! "
           </p>
         </div>
-        <div class="second-testimonial">
-          <img src="images/image-irene.jpg" />
+        <div class="second-testimonial bg-primary-testimonial flow-testimonial testimonial-decor">
           <div class="flex-group">
-            <p>Irene Roberts</p>
-            <p>Verified Buyer</p>
+            <img src="images/image-irene.jpg" />
+            <div class="flex-group-secondary">
+              <p>Irene Roberts</p>
+              <p>Verified Buyer</p>
+            </div>
           </div>
           <p class="testimonial-description">
-            "Customer service is always excellent and very quick turn around.
+            " Customer service is always excellent and very quick turn around.
             Completely delighted with the simplicity of the purchase and the
-            speed of delivery."
+            speed of delivery. "
           </p>
         </div>
-        <div class="third-testimonial">
-          <img src="images/image-anne.jpg" />
-          <div class="flex-group">
-            <p>Anne Wallace</p>
-            <p>Verified Buyer</p>
-          </div>
+        <div class="third-testimonial bg-primary-testimonial flow-testimonial testimonial-decor">
+          <deiv class="flex-group">
+            <img src="images/image-anne.jpg" />
+            <div class="flex-group-secondary">
+              <p>Anne Wallace</p>
+              <p>Verified Buyer</p>
+            </div>
+          </deiv>
           <p class="testimonial-description">
-            "Put an order with this company and can only praise them for the
+            " Put an order with this company and can only praise them for the
             very high standard. Will definitely use them again and recommend
-            them to everyone!"
+            them to everyone! "
           </p>
         </div>
       </div>
